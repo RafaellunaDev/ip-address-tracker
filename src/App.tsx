@@ -71,8 +71,8 @@ function App() {
             <img src={IconArrowRight} alt="Icon Arrow Right" />
           </div>
         </div>
-        <div className="w-11/12 rounded-lg absolute md:top-1/3 top-1/4 left-1/12  max-w-5xl  md:mt-0 -mt-7  bg-white z-10 flex flex-col justify-center items-center sm:flex-row container gap-4 p-4 sm:p-8">
-          <div className="sm:border-r-2 w-full border-slate-300 flex flex-col md:items-start items-center md:pr-2">
+        <div className="w-11/12 rounded-lg absolute md:top-1/3 top-48 left-1/12  max-w-5xl  md:mt-0 -mt-7 bg-white z-10 flex flex-col justify-center items-center sm:flex-row container gap-4 p-4 sm:p-8">
+          <div className="sm:border-r-2 w-full border-slate-300 flex flex-col md:items-start items-center md:pr-2 md:text-start text-center">
             <p className="md:text-sm text-xs text-slate-400 font-semibold uppercase">
               IP Address
             </p>
@@ -80,7 +80,7 @@ function App() {
               {IPAddress}
             </p>
           </div>
-          <div className="sm:border-r-2 w-full border-slate-300 flex flex-col  md:items-start items-center">
+          <div className="sm:border-r-2 w-full border-slate-300 flex flex-col  md:items-start items-center md:text-start text-center">
             <p className="md:text-sm text-xs text-slate-400 font-semibold uppercase">
               Location
             </p>
@@ -88,7 +88,7 @@ function App() {
               {location}
             </p>
           </div>
-          <div className="sm:border-r-2 w-full border-slate-300 flex flex-col  md:items-start items-center">
+          <div className="sm:border-r-2 w-full border-slate-300 flex flex-col  md:items-start items-center md:text-start text-center">
             <p className="md:text-sm text-xs text-slate-400 font-semibold uppercase">
               Timezone
             </p>
@@ -96,7 +96,7 @@ function App() {
               {timezone}
             </p>
           </div>
-          <div className="w-full flex flex-col  md:items-start items-center">
+          <div className="w-full flex flex-col  md:items-start items-center md:text-start text-center">
             <p className="md:text-sm text-xs text-slate-400 font-semibold uppercase">
               ISP
             </p>
